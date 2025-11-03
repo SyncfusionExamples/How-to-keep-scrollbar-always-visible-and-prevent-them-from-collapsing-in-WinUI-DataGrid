@@ -25,8 +25,6 @@ namespace DataGridDemo
 
         private void GenerateOrders()
         {
-            _orders.Clear();
-
             _orders.Add(new OrderInfo(1001, "Maria", "Germany", "ALFKI", "Berlin"));
             _orders.Add(new OrderInfo(1002, "Ana", "Mexico", "ANATR", "Mexico City"));
             _orders.Add(new OrderInfo(1003, "Antonio", "Mexico", "ANTON", "Guadalajara"));
