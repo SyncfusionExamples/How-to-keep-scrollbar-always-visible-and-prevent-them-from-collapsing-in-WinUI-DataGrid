@@ -4,15 +4,15 @@ In [WinUI DataGrid](https://www.syncfusion.com/winui-controls/datagrid) (SfDataG
 
  ```xml
 <Window x:Class="DataGridDemo.MainWindow"
-          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-          xmlns:toolKit ="using:AK.Toolkit.WinUI3"
-          xmlns:dataGrid="using:Syncfusion.UI.Xaml.DataGrid">
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:toolKit ="using:AK.Toolkit.WinUI3"
+         xmlns:dataGrid="using:Syncfusion.UI.Xaml.DataGrid">
 
 <dataGrid:SfDataGrid x:Name="sfDataGrid"
-                     toolKit:ScrollBarExtensions.KeepVerticalExpanded="True"
-                     toolKit:ScrollBarExtensions.KeepHorizontalExpanded="True"
-                     ItemsSource="{Binding Orders}">
+                      toolKit:ScrollBarExtensions.KeepVerticalExpanded="True"
+                      toolKit:ScrollBarExtensions.KeepHorizontalExpanded="True"
+                      ItemsSource="{Binding Orders}">
 </dataGrid:SfDataGrid> 
  ```
 
